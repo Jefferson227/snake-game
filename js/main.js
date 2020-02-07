@@ -1,0 +1,3 @@
+ /* Javascript */
+loadHiScore();
+startFoodLoop();

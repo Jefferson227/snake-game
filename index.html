@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="game-info">
+            <div class="score">
+                <div class="score-text">Score</div>
+                <div id="score-points" class="score-points">0</div>
+            </div>
+
+            <div class="score hi-score">
+                <div class="score-text">Hi-Score</div>
+                <div id="hi-score-points" class="score-points">0</div>
+            </div>
+        </div>
+        
+        <button id="button-restart" class="button-restart">Play Again</button>
+        
+        <div id="game-arena" class="game-arena">
+            <div id="snake-wrapper" class="snake-wrapper">
+                <div id="snake-head" class="snake snake-head" style="left: 80px;"></div>
+                <div class="snake snake-tail" style="left: 64px;"></div>
+                <div class="snake snake-tail" style="left: 48px;"></div>
+                <div class="snake snake-tail" style="left: 32px;"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/constants.js"></script>
+        <script src="js/enums.js"></script>
+        <script src="js/state.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/eventListeners.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
